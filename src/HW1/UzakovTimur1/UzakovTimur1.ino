@@ -40,7 +40,7 @@ void CreateTasks(void)
   int id_zero = 0;
   int id_one = 1;
   int id_two = 2;
-  xTaskCreate(task,"Task0",128,id_zero,210,&taskZeroHandle);
+//  xTaskCreate(task,"Task0",128,id_zero,210,&taskZeroHandle);
   xTaskCreate(task,"Task1",128,id_one,210,&taskOneHandle);
   xTaskCreate(task,"Task2",128,id_two,210,&taskTwoHandle);
 }
